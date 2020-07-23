@@ -1,0 +1,47 @@
+.main-header {
+  background-color: #111111;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.main-navigation {
+  width: 1440px;
+  display: flex;
+  align-items: center; }
+
+.list-menu {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 24px;
+  margin-right: 76px; }
+
+.logo {
+  display: block;
+  margin-left: 64px;
+  height: 35px;
+  margin-right: 104px; }
+
+.item-menu a {
+  color: #ffffff; }
+
+.basket {
+  margin-right: 88px;
+  height: 37px; }
+
+.item-menu {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px; }
+
+.item-menu:last-child {
+  margin-right: 0; }
