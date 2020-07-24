@@ -331,3 +331,10 @@
     margin: 0 auto; }
   .feature-price {
     margin-bottom: 25px; } }
+
+@media (max-width: 320px) {
+  .img-nootris-small {
+    width: 300px; }
+  .img-bottom {
+    width: 300px;
+    margin: 0 auto; } }

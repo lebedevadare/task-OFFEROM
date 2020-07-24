@@ -63,11 +63,15 @@
 
 @media (max-width: 768px) {
   .icon-menu {
-    margin-left: 28px; }
+    display: block; }
+  .list-menu {
+    display: none; }
+  .icon-menu {
+    margin-left: 115px; }
   .logo {
-    margin-left: 74px; }
+    margin-left: 222px; }
   .basket {
-    margin-left: 77px; } }
+    display: none; } }
 
 @media (max-width: 414px) {
   .icon-menu {
