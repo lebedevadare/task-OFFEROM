@@ -1,7 +1,9 @@
 html {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 *, *::before, *::after {
+  -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
 img {
@@ -29,6 +31,7 @@ input[type="checkbox"].visually-hidden {
   border: 0;
   padding: 0;
   white-space: nowrap;
+  -webkit-clip-path: inset(100%);
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden; }
@@ -56,8 +59,15 @@ input[type="checkbox"].visually-hidden {
 .main-header {
   background-color: #111111;
   height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center; }
 
 .icon-menu {
@@ -65,12 +75,20 @@ input[type="checkbox"].visually-hidden {
 
 .main-navigation {
   width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center; }
 
 .list-menu {
   height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -385,6 +403,8 @@ input[type="checkbox"].visually-hidden {
   text-align: center; }
 
 .price-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 336px;
   margin: 0 auto;
@@ -408,10 +428,14 @@ input[type="checkbox"].visually-hidden {
   line-height: 57px; }
 
 .block-img-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 956px;
   margin: 0 auto;
   margin-bottom: 64px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .wrapper-about-ginger {

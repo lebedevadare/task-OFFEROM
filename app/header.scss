@@ -5,6 +5,9 @@
   flex-direction: row;
   align-items: center;
 }
+.icon-menu{
+  display: none;
+}
 .main-navigation{
   width: 1440px;
   display: flex;
@@ -46,3 +49,56 @@ align-items: center;
 .item-menu:last-child{
   margin-right: 0;
 }
+@media (max-width: 1025px) {
+  .icon-menu{
+    display: block;
+  }
+  .list-menu{
+    display: none;
+  }
+  .icon-menu{
+    margin-left: 115px;
+  }
+  .logo{
+    margin-left: 222px;
+  }
+  .basket{
+   margin-left: 132px;
+  }
+}
+@media (max-width: 768px) {
+  .icon-menu{
+    margin-left: 28px;
+  }
+  .logo{
+    margin-left: 74px;
+  }
+  .basket{
+   margin-left: 77px;
+  }
+}
+
+@media (max-width: 414px) {
+  .icon-menu{
+    margin-left: 28px;
+  }
+  .logo{
+    margin-left: 74px;
+  }
+  .basket{
+   margin-left: 77px;
+  }
+}
+@media (max-width: 375px) {
+  .icon-menu{
+    margin-left: 28px;
+  }
+  .logo{
+    margin-left: 74px;
+  }
+  .basket{
+   margin-left: 77px;
+  }
+
+}
+

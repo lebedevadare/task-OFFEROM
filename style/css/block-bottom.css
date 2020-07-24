@@ -19,6 +19,8 @@
   text-align: center; }
 
 .price-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 336px;
   margin: 0 auto;
@@ -42,10 +44,14 @@
   line-height: 57px; }
 
 .block-img-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 956px;
   margin: 0 auto;
   margin-bottom: 64px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .wrapper-about-ginger {
