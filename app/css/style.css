@@ -712,4 +712,6 @@ input[type="checkbox"].visually-hidden {
     width: 300px; }
   .block-img-bottom {
     width: 300px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .text-vorus {
+    margin-bottom: 20px; } }
