@@ -370,6 +370,15 @@ input[type="checkbox"].visually-hidden {
     right: 51px;
     top: 152px; } }
 
+@media (max-width: 320px) {
+  .img-ginger {
+    width: 140px;
+    right: 5px; }
+  .img-nootris {
+    right: 20px; }
+  .img-lemon {
+    right: 29px; } }
+
 .content-bottom {
   background-color: #111111;
   padding-top: 110px;
